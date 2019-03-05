@@ -1,0 +1,10 @@
+2019/03/05 20:50:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "tests". in C:\NewFolder\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\NewFolder\yii\framework\web\CController.php(270): CController->missingAction('tests')
+#1 C:\NewFolder\yii\framework\web\CWebApplication.php(282): CController->run('tests')
+#2 C:\NewFolder\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/tests')
+#3 C:\NewFolder\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\FinalApp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/FinalApp/index.php/post/tests
+---
